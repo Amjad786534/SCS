@@ -13,7 +13,7 @@ const Cards = () => {
             <div className='w-full flex justify-end px-3 mt-2 max-md:flex max-md:flex-col  '>
                 <div><Date className="text-gray-800 max-md:text-center" /></div>
             </div>
-            <div className='w-full mt-4 px-2 flex gap-1 h-screen'>
+            <div className='w-full mt-4 px-2 flex gap-1 '>
                 <div className='w-[640px] bg-gray-50 rounded-lg border border-gray-300 h-screen max-sm:flex max-md:flex-col'>
                     <div className='flex w-full justify-between px-2 py-2 max-md:flex-col '>
                         <div className='w-[250px]  rounded-xl border border-gray-200 bg-white '>
