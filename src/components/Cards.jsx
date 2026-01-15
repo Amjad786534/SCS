@@ -104,16 +104,16 @@ const Cards = () => {
                         </div>
                     </div>
                 </div>
-                <div className='w-[640px] bg-gray-300 rounded-2xl'>
+                <div className='w-[640px] bg-gray-300 rounded-2xl '>
                   <InventoryTable />
                 </div>
             </div>
-             <div className='w-full mt-4 px-2 flex gap-1 h-screen'>
-                <div className='w-[640px] bg-gray-200 rounded-lg  h-screen'>
+             <div className='w-full mt-4 px-2 flex gap-1 '>
+                <div className='w-[640px]  rounded-lg  py-1'>
               <ProductTable />
                 </div>
                 <div className='w-[640px] bg-white rounded-2xl'>
-                 <div className='bg-gray-50 h-screen rounded-lg '>
+                 <div className='bg-gray-50 rounded-lg '>
                      <Barchart />
                  </div>
                 </div>

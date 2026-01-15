@@ -14,7 +14,7 @@ const ProductTable = () => {
   const rowCount = 12;
 
   return (
-    <div className="p-1 rounded-lg border border-gray-300 bg-gray-50 min-h-screen">
+    <div className="p-2 rounded-lg border border-gray-300 bg-gray-50 ">
       {/* Responsive wrapper */}
       <div className="max-w-6xl mx-auto bg-white shadow-sm overflow-x-auto">
         <table className="w-full min-w-[600px] border-collapse border border-gray-400 table-fixed">
