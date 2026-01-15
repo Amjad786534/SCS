@@ -10,12 +10,12 @@ import Barchart from './Barchart';
 const Cards = () => {
     return (
         <div className=''>
-            <div className='w-full flex justify-end px-3 mt-2 max-md:flex max-md:flex-col  '>
+            <div className='w-full flex justify-end max-md:justify-center px-3 mt-2 max-md:flex-col'>
                 <div><Date className="text-gray-800 max-md:text-center" /></div>
             </div>
-            <div className='w-full mt-4 px-2 flex gap-1 h-screen'>
-                <div className='w-[640px] bg-gray-50 rounded-lg border border-gray-300 h-screen max-sm:flex max-md:flex-col'>
-                    <div className='flex w-full justify-between px-2 py-2 max-md:flex-col '>
+            <div className='w-full mt-4 px-2 flex flex-col lg:flex-row gap-4 lg:gap-1 h-auto md:h-screen'>
+                <div className='w-full lg:w-[640px] bg-gray-50 rounded-lg border border-gray-300 h-auto md:h-screen max-sm:flex max-md:flex-col'>
+                    <div className='flex w-full justify-between px-2 py-2 max-md:flex-col max-md:gap-4'>
                         <div className='w-[250px]  rounded-xl border border-gray-200 bg-white '>
                             <div className='w-full text-center'>
                                 <h1 className='font-bold bg-indigo-500 py-2 rounded-t-lg'>Outstanding Orders</h1>
@@ -104,16 +104,16 @@ const Cards = () => {
                         </div>
                     </div>
                 </div>
-                <div className='w-[640px] bg-gray-300 rounded-2xl'>
+                <div className='w-full lg:w-[640px] bg-gray-300 rounded-2xl'>
                   <InventoryTable />
                 </div>
             </div>
-             <div className='w-full mt-4 px-2 flex gap-1 h-screen'>
-                <div className='w-[640px] bg-gray-200 rounded-lg  h-screen'>
+             <div className='w-full mt-4 px-2 flex flex-col lg:flex-row gap-4 lg:gap-1 h-auto md:h-screen'>
+                <div className='w-full lg:w-[640px] bg-gray-200 rounded-lg h-auto md:h-screen'>
               <ProductTable />
                 </div>
-                <div className='w-[640px] bg-white rounded-2xl'>
-                 <div className='bg-gray-50 h-screen rounded-lg '>
+                <div className='w-full lg:w-[640px] bg-white rounded-2xl'>
+                 <div className='bg-gray-50 h-auto md:h-screen rounded-lg '>
                      <Barchart />
                  </div>
                 </div>
