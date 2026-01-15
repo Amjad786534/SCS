@@ -97,7 +97,7 @@ const Barchart = () => {
                 name: "collapseAxisBreakBtn",
                 top: 5,
                 left: 5,
-                shape: { r: 3, width: 160, height: 26 },
+                shape: { r: 3, width: 160, height: 20 },
                 style: {
                   fill: "#eee",
                   stroke: "#999",
@@ -134,7 +134,7 @@ const Barchart = () => {
     <ReactECharts
       ref={chartRef}
       option={option}
-      style={{ height: "500px", width: "100%" }}
+      style={{ height: "400px", width: "100%" }}
     />
   );
 };

@@ -23,7 +23,7 @@ const ProductTable = () => {
               {headers.map((header, index) => (
                 <th
                   key={header}
-                  className={`border border-gray-400 py-3 text-xs font-bold text-gray-700 text-center align-middle ${
+                  className={`border border-gray-400 py-1 text-xs font-bold text-gray-700 text-center align-middle ${
                     index === 0
                       ? "w-[100px] whitespace-nowrap" // Desktop: wide first column
                       : "w-[50px] leading-tight break-words" // Desktop: narrow for 2 lines
@@ -36,7 +36,7 @@ const ProductTable = () => {
           </thead>
           <tbody>
             {[...Array(rowCount)].map((_, rowIndex) => (
-              <tr key={rowIndex} className="h-10">
+              <tr key={rowIndex} className="h-7">
                 {headers.map((_, colIndex) => (
                   <td
                     key={colIndex}
